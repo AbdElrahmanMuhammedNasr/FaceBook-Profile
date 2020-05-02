@@ -2,15 +2,18 @@ body{
     background-color: #525273;
 }
 ._Main{
-    width: 95vw;
-    height: 95vh;
+    /* width: 95vw; */
+    /* height: 100vh; */
     background-color: #1d1d1d;
     margin: auto;
-    margin-top: 2vh;
-    overflow: hidden;
+    /* margin-top: 2vh; */
+    /* overflow: hidden; */
 }
 
 ._Main ._LeftBar{
+    height: 100vh;
+    overflow: hidden;
+
     background-color: #151828;
 }
 ._Main  {
@@ -49,6 +52,8 @@ body{
 ._Main ._Center{
     background-color: #3f414c;
     /* overflow-y:scroll ; */
+    height: 100vh;
+    overflow-y: scroll;
 
 }
 ._Main ._Center ._Profile {
@@ -72,9 +77,10 @@ body{
     margin: auto;
     background-image: url('../image/aBackgoung.svg');
     background-repeat: no-repeat;
+    /* display: none; */
 }
 ._Main ._Center ._Profile ._PIC ._MyPic {
-    position: relative;
+    position: absolute;
     left: 43%;
     top: 30%;
     color: black;
@@ -109,11 +115,24 @@ body{
 }
 
 ._Main ._Center ._Profile ._TimeLine{
-    background-color: #151828;
+    /* background-color: #151828; */
     /* margin-right: 5px; */
 }
-._Main ._Center ._Profile ._TimeLine ._Post{
-    
+._Main ._Center ._Profile ._TimeLine ._Post ,._Main ._Center ._Profile ._TimeLine ._Post2{
+     height: auto;
+     background-color: #151828;
+     border-radius: 5px;
+     padding: 20px;
+     margin-bottom: 20px;
+}
+
+._Main ._Center ._Profile ._TimeLine ._Post2{
+    color: white;
+}
+._Main ._Center ._Profile ._TimeLine ._Post textarea{
+    margin-bottom: 5px;
+    max-height: 100px;
+    min-height: 100px;
 }
 ._Main ._Center ._Profile ._Info ._Details{
     
@@ -150,6 +169,7 @@ body{
 /*************************************/
 ._Main ._RightBar{
     background-color: #151828;
+   
 }
 
 ._Main ._RightBar .navbar {
@@ -159,9 +179,10 @@ body{
   
 }
 ._Main ._RightBar ._Story ,._Main ._RightBar ._Contact{
-    max-height: 30vh;
+    max-height: 36vh;
     min-height: 30vh; 
     overflow-y: scroll;
+    
 }
 ._Main ._RightBar ._Story img,._Main ._RightBar ._Contact img{
     border: 2px solid gold;
