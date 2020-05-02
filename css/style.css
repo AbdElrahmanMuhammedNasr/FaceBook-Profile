@@ -8,7 +8,6 @@ body{
     margin: auto;
     margin-top: 2vh;
     overflow: hidden;
-    overflow-y: scroll;
 }
 
 ._Main ._LeftBar{
@@ -47,17 +46,113 @@ body{
 /*************************************/
 
 
-._Main section:nth-child(2){
-    background-color: red;
+._Main ._Center{
+    background-color: #3f414c;
+    /* overflow-y:scroll ; */
+
 }
+._Main ._Center ._Profile {
+
+}
+._Main ._Center ._Profile ._Search input{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+._Main ._Center ._Profile ._Search .Icon{
+    background-color: transparent;
+    border: none;
+}
+._Main ._Center ._Profile ._Search .Icon i{
+    color: white;
+}
+
+._Main ._Center ._Profile ._PIC{
+    height: 35vh;
+    margin: auto;
+    background-image: url('../image/aBackgoung.svg');
+    background-repeat: no-repeat;
+}
+._Main ._Center ._Profile ._PIC ._MyPic {
+    position: relative;
+    left: 43%;
+    top: 30%;
+    color: black;
+}
+._Main ._Center ._Profile ._PIC ._MyPic img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid gold;
+}
+._Main ._Center ._Profile ._Options{
+
+}
+._Main ._Center ._Profile ._Options ul{
+    list-style-type: none;
+    width: 99%;
+    color: white;
+    margin-top: 5px;
+
+}
+._Main ._Center ._Profile ._Options ul li{
+    background-color: #151828;
+    text-align: center;
+}
+._Main ._Center ._Profile ._Options ul li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #5757b1;
+}
+
+._Main ._Center ._Profile ._Info{
+
+}
+
+._Main ._Center ._Profile ._TimeLine{
+    background-color: #151828;
+    /* margin-right: 5px; */
+}
+._Main ._Center ._Profile ._TimeLine ._Post{
+    
+}
+._Main ._Center ._Profile ._Info ._Details{
+    
+}
+._Main ._Center ._Profile ._Info ._Details ._Intro ,._Main ._Center ._Profile ._Info ._Details ._Pages{
+    font-family: serif;
+    margin-top: 10px;
+   background-color: #151828;
+   border-radius: 5px;
+   padding: 10px;
+   color: white;
+}
+
+._Main ._Center ._Profile ._Info ._Details ._Page small{
+    
+}
+._Main ._Center ._Profile ._Info ._Details ._Pages img{
+    border: 2px solid gold;
+}
+._Main ._Center ._Profile ._Info ._Details ._Pages a{
+    border: none;
+    color: white;
+    margin-top: 10px;
+ 
+    
+}
+._Main ._Center ._Profile ._Info ._Details ._Pages a span:nth-child(2) h6{
+    line-height: 50px;
+    margin-left: 5vh;
+}
+
+
 
 /*************************************/
 ._Main ._RightBar{
     background-color: #151828;
 }
 
-._Main ._RightBar {
-
+._Main ._RightBar .navbar {
 }
 ._Main ._RightBar  small{
     color: #868686;
@@ -72,6 +167,7 @@ body{
     border: 2px solid gold;
 }
 ._Main ._RightBar ._Story a,._Main ._RightBar ._Contact a{
+    font-family: serif;
     border: none;
     color: white;
     margin-top: 20px;
