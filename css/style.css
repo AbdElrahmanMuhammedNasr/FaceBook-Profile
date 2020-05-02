@@ -146,6 +146,11 @@ body{
     margin-bottom: 5px;
     max-height: 100px;
     min-height: 100px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom:1px solid white ;
+    
 }
 ._Main ._Center ._Profile ._Info ._Details{
     
