@@ -1,0 +1,85 @@
+body{
+    background-color: #525273;
+}
+._Main{
+    width: 95vw;
+    height: 95vh;
+    background-color: #1d1d1d;
+    margin: auto;
+    margin-top: 2vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+._Main ._LeftBar{
+    background-color: #151828;
+}
+._Main  {
+    overflow:hidden;
+}
+._Main ._LeftBar  h5{
+    color: white;
+    font-family: serif;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+._Main ._LeftBar  small{
+    color: #868686;
+}
+._Main ._LeftBar ._Menu a,._Main ._LeftBar ._Favourite a {
+    border: none;
+    color: white;
+    text-decoration: none;
+    margin-left: -15px;
+    margin-top: 20px;
+    
+}
+._Main ._LeftBar ._Menu a i ,._Main ._LeftBar ._Favourite a i{
+    margin: 0px 15px;
+}
+
+._Main ._LeftBar ._Menu a span, ._Main ._LeftBar ._Favourite a span{
+    font-size: 13px;
+    font-family: serif;
+}
+
+/*************************************/
+
+
+._Main section:nth-child(2){
+    background-color: red;
+}
+
+/*************************************/
+._Main ._RightBar{
+    background-color: #151828;
+}
+
+._Main ._RightBar {
+
+}
+._Main ._RightBar  small{
+    color: #868686;
+  
+}
+._Main ._RightBar ._Story ,._Main ._RightBar ._Contact{
+    max-height: 30vh;
+    min-height: 30vh; 
+    overflow-y: scroll;
+}
+._Main ._RightBar ._Story img,._Main ._RightBar ._Contact img{
+    border: 2px solid gold;
+}
+._Main ._RightBar ._Story a,._Main ._RightBar ._Contact a{
+    border: none;
+    color: white;
+    margin-top: 20px;
+    
+}
+
+
+
+::-webkit-scrollbar{
+    display: none;
+}
