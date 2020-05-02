@@ -35,6 +35,13 @@ body{
     text-decoration: none;
     margin-left: -15px;
     margin-top: 20px;
+    /* transition: 1s;; */
+
+}
+._Main ._LeftBar ._Menu a:hover,._Main ._LeftBar ._Favourite a:hover {
+    transition: 1s;;
+    /* background-color: #525273; */
+    transform: translateX(20px);
     
 }
 ._Main ._LeftBar ._Menu a i ,._Main ._LeftBar ._Favourite a i{
@@ -104,11 +111,16 @@ body{
 ._Main ._Center ._Profile ._Options ul li{
     background-color: #151828;
     text-align: center;
+    padding: 10px;
 }
 ._Main ._Center ._Profile ._Options ul li:hover{
     cursor: pointer;
-    border-bottom: 2px solid #5757b1;
-}
+    background-color: #5e656d;
+} 
+._Main ._Center ._Profile ._Options ul li:active{
+    cursor: pointer;
+    background-color: #9999f8;
+}     
 
 ._Main ._Center ._Profile ._Info{
 
@@ -139,14 +151,14 @@ body{
     
 }
 ._Main ._Center ._Profile ._Info ._Details ._Intro ,._Main ._Center ._Profile ._Info ._Details ._Pages{
-    font-family: serif;
-    margin-top: 10px;
+   font-family: serif;
+   margin-top: 10px;
    background-color: #151828;
    border-radius: 5px;
    padding: 10px;
    color: white;
 }
-
+._Main ._Center ._Profile ._Info ._Details ._Pages{}
 ._Main ._Center ._Profile ._Info ._Details ._Page small{
     
 }
@@ -163,6 +175,8 @@ body{
 ._Main ._Center ._Profile ._Info ._Details ._Pages a span:nth-child(2) h6{
     line-height: 50px;
     margin-left: 5vh;
+    font-size: 13px;
+    letter-spacing: 2px;
 }
 
 
